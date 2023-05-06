@@ -1,8 +1,6 @@
 let string = "dimitar hristovski";
 
 function capitalizeWords(string) {
-
-
   let words = string.split(" ");
   for (let i = 0; i < words.length; i++) {
     words[i] = capitalizeFirst(words[i]);

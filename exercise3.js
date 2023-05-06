@@ -12,6 +12,6 @@ console.log(`Multiply res of ${a} & ${b} is ${multiply(a, b)}`);
 console.log(`Divide res of ${a} & ${b} is ${divide(a, b)}`);
 
 function calc(operator, a, b, fn) {
-  console.log(`${operator} na ${a} i ${b} e ${fn(a, b)}`);
+  console.log(`${operator} of ${a} and  ${b} is ${fn(a, b)}`);
 }
-module.exports =calc;
+module.exports = calc;
